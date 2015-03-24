@@ -1,2 +1,5 @@
+.sass-cache/
 index.html
 scss.scss
+*.css.map
+*.css
