@@ -4,53 +4,103 @@
 // -----------
 
 // $sc-primary lightened 10 degree increments.
-$sc-primary-lighten-10: lighten($sc-primary, 10deg);
-$sc-primary-lighten-20: lighten($sc-primary, 20deg);
-$sc-primary-lighten-30: lighten($sc-primary, 30deg);
-$sc-primary-lighten-40: lighten($sc-primary, 40deg);
-$sc-primary-lighten-50: lighten($sc-primary, 50deg);
-$sc-primary-lighten-60: lighten($sc-primary, 60deg);
-$sc-primary-lighten-70: lighten($sc-primary, 70deg);
-$sc-primary-lighten-80: lighten($sc-primary, 80deg);
-$sc-primary-lighten-90: lighten($sc-primary, 90deg);
+$sc-primary-lighten-10: lighten($sc-primary, 10);
+$sc-primary-lighten-20: lighten($sc-primary, 20);
+$sc-primary-lighten-30: lighten($sc-primary, 30);
+$sc-primary-lighten-40: lighten($sc-primary, 40);
+$sc-primary-lighten-50: lighten($sc-primary, 50);
+$sc-primary-lighten-60: lighten($sc-primary, 60);
+$sc-primary-lighten-70: lighten($sc-primary, 70);
+$sc-primary-lighten-80: lighten($sc-primary, 80);
+$sc-primary-lighten-90: lighten($sc-primary, 90);
 
 // $sc-primary darkened 10 degree increments.
-$sc-primary-darken-10: darken($sc-primary, 10deg);
-$sc-primary-darken-20: darken($sc-primary, 20deg);
-$sc-primary-darken-30: darken($sc-primary, 30deg);
-$sc-primary-darken-40: darken($sc-primary, 40deg);
-$sc-primary-darken-50: darken($sc-primary, 50deg);
-$sc-primary-darken-60: darken($sc-primary, 60deg);
-$sc-primary-darken-70: darken($sc-primary, 70deg);
-$sc-primary-darken-80: darken($sc-primary, 80deg);
-$sc-primary-darken-90: darken($sc-primary, 90deg);
+$sc-primary-darken-10: darken($sc-primary, 10);
+$sc-primary-darken-20: darken($sc-primary, 20);
+$sc-primary-darken-30: darken($sc-primary, 30);
+$sc-primary-darken-40: darken($sc-primary, 40);
+$sc-primary-darken-50: darken($sc-primary, 50);
+$sc-primary-darken-60: darken($sc-primary, 60);
+$sc-primary-darken-70: darken($sc-primary, 70);
+$sc-primary-darken-80: darken($sc-primary, 80);
+$sc-primary-darken-90: darken($sc-primary, 90);
 
 // ----------
 // Complement
 // ----------
-$sc-complementary: adjust_hue($sc-primary, 180);
+$sc-complement: adjust_hue($sc-primary, 180);
 
-// $sc-complementary lightened in 10 degree increments
-$sc-complementary-lighten-10: lighten($sc-complementary, 10deg);
-$sc-complementary-lighten-20: lighten($sc-complementary, 20deg);
-$sc-complementary-lighten-30: lighten($sc-complementary, 30deg);
-$sc-complementary-lighten-40: lighten($sc-complementary, 40deg);
-$sc-complementary-lighten-50: lighten($sc-complementary, 50deg);
-$sc-complementary-lighten-60: lighten($sc-complementary, 60deg);
-$sc-complementary-lighten-70: lighten($sc-complementary, 70deg);
-$sc-complementary-lighten-80: lighten($sc-complementary, 80deg);
-$sc-complementary-lighten-90: lighten($sc-complementary, 90deg);
+// $sc-complement lightened in 10 degree increments
+$sc-complement-lighten-10: lighten($sc-complement, 10);
+$sc-complement-lighten-20: lighten($sc-complement, 20);
+$sc-complement-lighten-30: lighten($sc-complement, 30);
+$sc-complement-lighten-40: lighten($sc-complement, 40);
+$sc-complement-lighten-50: lighten($sc-complement, 50);
+$sc-complement-lighten-60: lighten($sc-complement, 60);
+$sc-complement-lighten-70: lighten($sc-complement, 70);
+$sc-complement-lighten-80: lighten($sc-complement, 80);
+$sc-complement-lighten-90: lighten($sc-complement, 90);
 
-// $sc-complementary darkened in 10 degree increments
-$sc-complementary-darken-10: darken($sc-complementary, 10deg);
-$sc-complementary-darken-20: darken($sc-complementary, 20deg);
-$sc-complementary-darken-30: darken($sc-complementary, 30deg);
-$sc-complementary-darken-40: darken($sc-complementary, 40deg);
-$sc-complementary-darken-50: darken($sc-complementary, 50deg);
-$sc-complementary-darken-60: darken($sc-complementary, 60deg);
-$sc-complementary-darken-70: darken($sc-complementary, 70deg);
-$sc-complementary-darken-80: darken($sc-complementary, 80deg);
-$sc-complementary-darken-90: darken($sc-complementary, 90deg);
+// $sc-complement darkened in 10 degree increments
+$sc-complement-darken-10: darken($sc-complement, 10);
+$sc-complement-darken-20: darken($sc-complement, 20);
+$sc-complement-darken-30: darken($sc-complement, 30);
+$sc-complement-darken-40: darken($sc-complement, 40);
+$sc-complement-darken-50: darken($sc-complement, 50);
+$sc-complement-darken-60: darken($sc-complement, 60);
+$sc-complement-darken-70: darken($sc-complement, 70);
+$sc-complement-darken-80: darken($sc-complement, 80);
+$sc-complement-darken-90: darken($sc-complement, 90);
+
+// ----------
+// Split Complement
+// ----------
+$sc-split-complement-pos150: adjust_hue($sc-primary, 150);
+$sc-split-complement-neg150: adjust_hue($sc-primary, -150);
+
+// $sc-split-complement-pos150 lighten in 10 degree increments
+$sc-split-complement-pos150-lighten-10: lighten($sc-split-complement-pos150, 10);
+$sc-split-complement-pos150-lighten-20: lighten($sc-split-complement-pos150, 20);
+$sc-split-complement-pos150-lighten-30: lighten($sc-split-complement-pos150, 30);
+$sc-split-complement-pos150-lighten-40: lighten($sc-split-complement-pos150, 40);
+$sc-split-complement-pos150-lighten-50: lighten($sc-split-complement-pos150, 50);
+$sc-split-complement-pos150-lighten-60: lighten($sc-split-complement-pos150, 60);
+$sc-split-complement-pos150-lighten-70: lighten($sc-split-complement-pos150, 70);
+$sc-split-complement-pos150-lighten-80: lighten($sc-split-complement-pos150, 80);
+$sc-split-complement-pos150-lighten-90: lighten($sc-split-complement-pos150, 90);
+
+// $sc-split-complement-pos150 darkened 10 degree increments.
+$sc-split-complement-pos150-darken-10: darken($sc-split-complement-pos150, 10);
+$sc-split-complement-pos150-darken-20: darken($sc-split-complement-pos150, 20);
+$sc-split-complement-pos150-darken-30: darken($sc-split-complement-pos150, 30);
+$sc-split-complement-pos150-darken-40: darken($sc-split-complement-pos150, 40);
+$sc-split-complement-pos150-darken-50: darken($sc-split-complement-pos150, 50);
+$sc-split-complement-pos150-darken-60: darken($sc-split-complement-pos150, 60);
+$sc-split-complement-pos150-darken-70: darken($sc-split-complement-pos150, 70);
+$sc-split-complement-pos150-darken-80: darken($sc-split-complement-pos150, 80);
+$sc-split-complement-pos150-darken-90: darken($sc-split-complement-pos150, 90);
+
+// $sc-split-complement-neg150 lighten in 10 degree increments
+$sc-split-complement-neg150-lighten-10: lighten($sc-split-complement-neg150, 10);
+$sc-split-complement-neg150-lighten-20: lighten($sc-split-complement-neg150, 20);
+$sc-split-complement-neg150-lighten-30: lighten($sc-split-complement-neg150, 30);
+$sc-split-complement-neg150-lighten-40: lighten($sc-split-complement-neg150, 40);
+$sc-split-complement-neg150-lighten-50: lighten($sc-split-complement-neg150, 50);
+$sc-split-complement-neg150-lighten-60: lighten($sc-split-complement-neg150, 60);
+$sc-split-complement-neg150-lighten-70: lighten($sc-split-complement-neg150, 70);
+$sc-split-complement-neg150-lighten-80: lighten($sc-split-complement-neg150, 80);
+$sc-split-complement-neg150-lighten-90: lighten($sc-split-complement-neg150, 90);
+
+// $sc-split-complement-neg150 darkened 10 degree increments.
+$sc-split-complement-neg150-darken-10: darken($sc-split-complement-neg150, 10);
+$sc-split-complement-neg150-darken-20: darken($sc-split-complement-neg150, 20);
+$sc-split-complement-neg150-darken-30: darken($sc-split-complement-neg150, 30);
+$sc-split-complement-neg150-darken-40: darken($sc-split-complement-neg150, 40);
+$sc-split-complement-neg150-darken-50: darken($sc-split-complement-neg150, 50);
+$sc-split-complement-neg150-darken-60: darken($sc-split-complement-neg150, 60);
+$sc-split-complement-neg150-darken-70: darken($sc-split-complement-neg150, 70);
+$sc-split-complement-neg150-darken-80: darken($sc-split-complement-neg150, 80);
+$sc-split-complement-neg150-darken-90: darken($sc-split-complement-neg150, 90);
 
 // ----------
 // Analogous
@@ -59,45 +109,45 @@ $sc-analogous-pos30: adjust_hue($sc-primary, 30);
 $sc-analogous-neg30: adjust_hue($sc-primary, -30);
 
 // $sc-analogous-pos30 lighten in 10 degree increments
-$sc-analogous-pos30-lighten-10: lighten($sc-analogous-pos30, 10deg);
-$sc-analogous-pos30-lighten-20: lighten($sc-analogous-pos30, 20deg);
-$sc-analogous-pos30-lighten-30: lighten($sc-analogous-pos30, 30deg);
-$sc-analogous-pos30-lighten-40: lighten($sc-analogous-pos30, 40deg);
-$sc-analogous-pos30-lighten-50: lighten($sc-analogous-pos30, 50deg);
-$sc-analogous-pos30-lighten-60: lighten($sc-analogous-pos30, 60deg);
-$sc-analogous-pos30-lighten-70: lighten($sc-analogous-pos30, 70deg);
-$sc-analogous-pos30-lighten-80: lighten($sc-analogous-pos30, 80deg);
-$sc-analogous-pos30-lighten-90: lighten($sc-analogous-pos30, 90deg);
+$sc-analogous-pos30-lighten-10: lighten($sc-analogous-pos30, 10);
+$sc-analogous-pos30-lighten-20: lighten($sc-analogous-pos30, 20);
+$sc-analogous-pos30-lighten-30: lighten($sc-analogous-pos30, 30);
+$sc-analogous-pos30-lighten-40: lighten($sc-analogous-pos30, 40);
+$sc-analogous-pos30-lighten-50: lighten($sc-analogous-pos30, 50);
+$sc-analogous-pos30-lighten-60: lighten($sc-analogous-pos30, 60);
+$sc-analogous-pos30-lighten-70: lighten($sc-analogous-pos30, 70);
+$sc-analogous-pos30-lighten-80: lighten($sc-analogous-pos30, 80);
+$sc-analogous-pos30-lighten-90: lighten($sc-analogous-pos30, 90);
 
 // $sc-analogous-pos30 darkened 10 degree increments.
-$sc-analogous-pos30-darken-10: darken($sc-analogous-pos30, 10deg);
-$sc-analogous-pos30-darken-20: darken($sc-analogous-pos30, 20deg);
-$sc-analogous-pos30-darken-30: darken($sc-analogous-pos30, 30deg);
-$sc-analogous-pos30-darken-40: darken($sc-analogous-pos30, 40deg);
-$sc-analogous-pos30-darken-50: darken($sc-analogous-pos30, 50deg);
-$sc-analogous-pos30-darken-60: darken($sc-analogous-pos30, 60deg);
-$sc-analogous-pos30-darken-70: darken($sc-analogous-pos30, 70deg);
-$sc-analogous-pos30-darken-80: darken($sc-analogous-pos30, 80deg);
-$sc-analogous-pos30-darken-90: darken($sc-analogous-pos30, 90deg);
+$sc-analogous-pos30-darken-10: darken($sc-analogous-pos30, 10);
+$sc-analogous-pos30-darken-20: darken($sc-analogous-pos30, 20);
+$sc-analogous-pos30-darken-30: darken($sc-analogous-pos30, 30);
+$sc-analogous-pos30-darken-40: darken($sc-analogous-pos30, 40);
+$sc-analogous-pos30-darken-50: darken($sc-analogous-pos30, 50);
+$sc-analogous-pos30-darken-60: darken($sc-analogous-pos30, 60);
+$sc-analogous-pos30-darken-70: darken($sc-analogous-pos30, 70);
+$sc-analogous-pos30-darken-80: darken($sc-analogous-pos30, 80);
+$sc-analogous-pos30-darken-90: darken($sc-analogous-pos30, 90);
 
 // $sc-analogous-neg30 lighten in 10 degree increments
-$sc-analogous-neg30-lighten-10: lighten($sc-analogous-neg30, 10deg);
-$sc-analogous-neg30-lighten-20: lighten($sc-analogous-neg30, 20deg);
-$sc-analogous-neg30-lighten-30: lighten($sc-analogous-neg30, 30deg);
-$sc-analogous-neg30-lighten-40: lighten($sc-analogous-neg30, 40deg);
-$sc-analogous-neg30-lighten-50: lighten($sc-analogous-neg30, 50deg);
-$sc-analogous-neg30-lighten-60: lighten($sc-analogous-neg30, 60deg);
-$sc-analogous-neg30-lighten-70: lighten($sc-analogous-neg30, 70deg);
-$sc-analogous-neg30-lighten-80: lighten($sc-analogous-neg30, 80deg);
-$sc-analogous-neg30-lighten-90: lighten($sc-analogous-neg30, 90deg);
+$sc-analogous-neg30-lighten-10: lighten($sc-analogous-neg30, 10);
+$sc-analogous-neg30-lighten-20: lighten($sc-analogous-neg30, 20);
+$sc-analogous-neg30-lighten-30: lighten($sc-analogous-neg30, 30);
+$sc-analogous-neg30-lighten-40: lighten($sc-analogous-neg30, 40);
+$sc-analogous-neg30-lighten-50: lighten($sc-analogous-neg30, 50);
+$sc-analogous-neg30-lighten-60: lighten($sc-analogous-neg30, 60);
+$sc-analogous-neg30-lighten-70: lighten($sc-analogous-neg30, 70);
+$sc-analogous-neg30-lighten-80: lighten($sc-analogous-neg30, 80);
+$sc-analogous-neg30-lighten-90: lighten($sc-analogous-neg30, 90);
 
 // $sc-analogous-neg30 darkened 10 degree increments.
-$sc-analogous-neg30-darken-10: darken($sc-analogous-neg30, 10deg);
-$sc-analogous-neg30-darken-20: darken($sc-analogous-neg30, 20deg);
-$sc-analogous-neg30-darken-30: darken($sc-analogous-neg30, 30deg);
-$sc-analogous-neg30-darken-40: darken($sc-analogous-neg30, 40deg);
-$sc-analogous-neg30-darken-50: darken($sc-analogous-neg30, 50deg);
-$sc-analogous-neg30-darken-60: darken($sc-analogous-neg30, 60deg);
-$sc-analogous-neg30-darken-70: darken($sc-analogous-neg30, 70deg);
-$sc-analogous-neg30-darken-80: darken($sc-analogous-neg30, 80deg);
-$sc-analogous-neg30-darken-90: darken($sc-analogous-neg30, 90deg);
+$sc-analogous-neg30-darken-10: darken($sc-analogous-neg30, 10);
+$sc-analogous-neg30-darken-20: darken($sc-analogous-neg30, 20);
+$sc-analogous-neg30-darken-30: darken($sc-analogous-neg30, 30);
+$sc-analogous-neg30-darken-40: darken($sc-analogous-neg30, 40);
+$sc-analogous-neg30-darken-50: darken($sc-analogous-neg30, 50);
+$sc-analogous-neg30-darken-60: darken($sc-analogous-neg30, 60);
+$sc-analogous-neg30-darken-70: darken($sc-analogous-neg30, 70);
+$sc-analogous-neg30-darken-80: darken($sc-analogous-neg30, 80);
+$sc-analogous-neg30-darken-90: darken($sc-analogous-neg30, 90);
