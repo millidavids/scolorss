@@ -151,3 +151,53 @@ $sc-analogous-neg30-darken-60: darken($sc-analogous-neg30, 60);
 $sc-analogous-neg30-darken-70: darken($sc-analogous-neg30, 70);
 $sc-analogous-neg30-darken-80: darken($sc-analogous-neg30, 80);
 $sc-analogous-neg30-darken-90: darken($sc-analogous-neg30, 90);
+
+// ----------
+// Triadic
+// ----------
+$sc-triadic-pos120: adjust_hue($sc-primary, 120);
+$sc-triadic-neg120: adjust_hue($sc-primary, -120);
+
+// $sc-triadic-pos120 lighten in 10 degree increments
+$sc-triadic-pos120-lighten-10: lighten($sc-triadic-pos120, 10);
+$sc-triadic-pos120-lighten-20: lighten($sc-triadic-pos120, 20);
+$sc-triadic-pos120-lighten-30: lighten($sc-triadic-pos120, 30);
+$sc-triadic-pos120-lighten-40: lighten($sc-triadic-pos120, 40);
+$sc-triadic-pos120-lighten-50: lighten($sc-triadic-pos120, 50);
+$sc-triadic-pos120-lighten-60: lighten($sc-triadic-pos120, 60);
+$sc-triadic-pos120-lighten-70: lighten($sc-triadic-pos120, 70);
+$sc-triadic-pos120-lighten-80: lighten($sc-triadic-pos120, 80);
+$sc-triadic-pos120-lighten-90: lighten($sc-triadic-pos120, 90);
+
+// $sc-triadic-pos120 darkened 10 degree increments.
+$sc-triadic-pos120-darken-10: darken($sc-triadic-pos120, 10);
+$sc-triadic-pos120-darken-20: darken($sc-triadic-pos120, 20);
+$sc-triadic-pos120-darken-30: darken($sc-triadic-pos120, 30);
+$sc-triadic-pos120-darken-40: darken($sc-triadic-pos120, 40);
+$sc-triadic-pos120-darken-50: darken($sc-triadic-pos120, 50);
+$sc-triadic-pos120-darken-60: darken($sc-triadic-pos120, 60);
+$sc-triadic-pos120-darken-70: darken($sc-triadic-pos120, 70);
+$sc-triadic-pos120-darken-80: darken($sc-triadic-pos120, 80);
+$sc-triadic-pos120-darken-90: darken($sc-triadic-pos120, 90);
+
+// $sc-triadic-neg120 lighten in 10 degree increments
+$sc-triadic-neg120-lighten-10: lighten($sc-triadic-neg120, 10);
+$sc-triadic-neg120-lighten-20: lighten($sc-triadic-neg120, 20);
+$sc-triadic-neg120-lighten-30: lighten($sc-triadic-neg120, 30);
+$sc-triadic-neg120-lighten-40: lighten($sc-triadic-neg120, 40);
+$sc-triadic-neg120-lighten-50: lighten($sc-triadic-neg120, 50);
+$sc-triadic-neg120-lighten-60: lighten($sc-triadic-neg120, 60);
+$sc-triadic-neg120-lighten-70: lighten($sc-triadic-neg120, 70);
+$sc-triadic-neg120-lighten-80: lighten($sc-triadic-neg120, 80);
+$sc-triadic-neg120-lighten-90: lighten($sc-triadic-neg120, 90);
+
+// $sc-triadic-neg120 darkened 10 degree increments.
+$sc-triadic-neg120-darken-10: darken($sc-triadic-neg120, 10);
+$sc-triadic-neg120-darken-20: darken($sc-triadic-neg120, 20);
+$sc-triadic-neg120-darken-30: darken($sc-triadic-neg120, 30);
+$sc-triadic-neg120-darken-40: darken($sc-triadic-neg120, 40);
+$sc-triadic-neg120-darken-50: darken($sc-triadic-neg120, 50);
+$sc-triadic-neg120-darken-60: darken($sc-triadic-neg120, 60);
+$sc-triadic-neg120-darken-70: darken($sc-triadic-neg120, 70);
+$sc-triadic-neg120-darken-80: darken($sc-triadic-neg120, 80);
+$sc-triadic-neg120-darken-90: darken($sc-triadic-neg120, 90);
