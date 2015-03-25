@@ -303,3 +303,53 @@ $sc-tetradic-neg240-darken-60: darken($sc-tetradic-neg240, 60);
 $sc-tetradic-neg240-darken-70: darken($sc-tetradic-neg240, 70);
 $sc-tetradic-neg240-darken-80: darken($sc-tetradic-neg240, 80);
 $sc-tetradic-neg240-darken-90: darken($sc-tetradic-neg240, 90);
+
+// ----------
+// Square
+// ----------
+$sc-square-pos90: adjust_hue($sc-primary, 90);
+$sc-square-neg90: adjust_hue($sc-primary, -90);
+
+// $sc-square-pos90 lighten in 10 degree increments
+$sc-square-pos90-lighten-10: lighten($sc-square-pos90, 10);
+$sc-square-pos90-lighten-20: lighten($sc-square-pos90, 20);
+$sc-square-pos90-lighten-30: lighten($sc-square-pos90, 30);
+$sc-square-pos90-lighten-40: lighten($sc-square-pos90, 40);
+$sc-square-pos90-lighten-50: lighten($sc-square-pos90, 50);
+$sc-square-pos90-lighten-60: lighten($sc-square-pos90, 60);
+$sc-square-pos90-lighten-70: lighten($sc-square-pos90, 70);
+$sc-square-pos90-lighten-80: lighten($sc-square-pos90, 80);
+$sc-square-pos90-lighten-90: lighten($sc-square-pos90, 90);
+
+// $sc-square-pos90 darkened 10 degree increments.
+$sc-square-pos90-darken-10: darken($sc-square-pos90, 10);
+$sc-square-pos90-darken-20: darken($sc-square-pos90, 20);
+$sc-square-pos90-darken-30: darken($sc-square-pos90, 30);
+$sc-square-pos90-darken-40: darken($sc-square-pos90, 40);
+$sc-square-pos90-darken-50: darken($sc-square-pos90, 50);
+$sc-square-pos90-darken-60: darken($sc-square-pos90, 60);
+$sc-square-pos90-darken-70: darken($sc-square-pos90, 70);
+$sc-square-pos90-darken-80: darken($sc-square-pos90, 80);
+$sc-square-pos90-darken-90: darken($sc-square-pos90, 90);
+
+// $sc-square-neg90 lighten in 10 degree increments
+$sc-square-neg90-lighten-10: lighten($sc-square-neg90, 10);
+$sc-square-neg90-lighten-20: lighten($sc-square-neg90, 20);
+$sc-square-neg90-lighten-30: lighten($sc-square-neg90, 30);
+$sc-square-neg90-lighten-40: lighten($sc-square-neg90, 40);
+$sc-square-neg90-lighten-50: lighten($sc-square-neg90, 50);
+$sc-square-neg90-lighten-60: lighten($sc-square-neg90, 60);
+$sc-square-neg90-lighten-70: lighten($sc-square-neg90, 70);
+$sc-square-neg90-lighten-80: lighten($sc-square-neg90, 80);
+$sc-square-neg90-lighten-90: lighten($sc-square-neg90, 90);
+
+// $sc-square-neg90 darkened 10 degree increments.
+$sc-square-neg90-darken-10: darken($sc-square-neg90, 10);
+$sc-square-neg90-darken-20: darken($sc-square-neg90, 20);
+$sc-square-neg90-darken-30: darken($sc-square-neg90, 30);
+$sc-square-neg90-darken-40: darken($sc-square-neg90, 40);
+$sc-square-neg90-darken-50: darken($sc-square-neg90, 50);
+$sc-square-neg90-darken-60: darken($sc-square-neg90, 60);
+$sc-square-neg90-darken-70: darken($sc-square-neg90, 70);
+$sc-square-neg90-darken-80: darken($sc-square-neg90, 80);
+$sc-square-neg90-darken-90: darken($sc-square-neg90, 90);
