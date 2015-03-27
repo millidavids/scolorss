@@ -28,7 +28,7 @@ $sc-primary: (
 
 $sc-colors: (
   'sc-primary': $sc-primary
-);
+) !default;
 
 // Finds colors through map key value pairs.
 @function color($color, $type) {
@@ -38,7 +38,7 @@ $sc-colors: (
       @return map-get($curr_color, $type);
     }
   }
-  @warn "Unknown `#{name}` in $sc-colors.";
+  @warn "Unknown `#{$color}` in $sc-colors.";
   @return null;
 }
 
