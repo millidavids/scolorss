@@ -1,29 +1,4 @@
-// ----------
-// Complement
-// ----------
-$sc-complement: adjust_hue($sc-seed, 180);
-
-// $sc-complement lightened in 10 degree increments
-$sc-complement-lighten-10: lighten($sc-complement, 10);
-$sc-complement-lighten-20: lighten($sc-complement, 20);
-$sc-complement-lighten-30: lighten($sc-complement, 30);
-$sc-complement-lighten-40: lighten($sc-complement, 40);
-$sc-complement-lighten-50: lighten($sc-complement, 50);
-$sc-complement-lighten-60: lighten($sc-complement, 60);
-$sc-complement-lighten-70: lighten($sc-complement, 70);
-$sc-complement-lighten-80: lighten($sc-complement, 80);
-$sc-complement-lighten-90: lighten($sc-complement, 90);
-
-// $sc-complement darkened in 10 degree increments
-$sc-complement-darken-10: darken($sc-complement, 10);
-$sc-complement-darken-20: darken($sc-complement, 20);
-$sc-complement-darken-30: darken($sc-complement, 30);
-$sc-complement-darken-40: darken($sc-complement, 40);
-$sc-complement-darken-50: darken($sc-complement, 50);
-$sc-complement-darken-60: darken($sc-complement, 60);
-$sc-complement-darken-70: darken($sc-complement, 70);
-$sc-complement-darken-80: darken($sc-complement, 80);
-$sc-complement-darken-90: darken($sc-complement, 90);
+@import 'harmonies/complement';
 
 // ----------
 // Split Complement
