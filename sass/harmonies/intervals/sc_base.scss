@@ -30,6 +30,7 @@ $sc-colors: (
   'sc-primary': $sc-primary
 );
 
+// Finds colors through map key value pairs.
 @function color($color, $type) {
   @if map-has-key($sc-colors, $color) {
     $curr_color: map-get($sc-colors, $color);
@@ -37,11 +38,26 @@ $sc-colors: (
       @return map-get($curr_color, $type);
     }
   }
-  @warn "Unknown `#{name}` in $colors.";
+  @warn "Unknown `#{name}` in $sc-colors.";
   @return null;
 }
 
+// Sets the sc-colors map.
 @function map-set($map, $key, $value) {
   $new: ($key: $value);
   @return map-merge($map, $new);
+}
+
+// Hack to only import files onces, saves them in a list.
+// Credit to Wilson Page
+// https://github.com/wilsonpage/sass-import-once
+$imported-modules: () !default;
+
+@mixin exports($name) {
+  @if (index($imported-modules, $name) == null) {
+    $imported-modules: append($imported-modules, $name) !global;
+    @content;
+  } @else {
+    @warn "Module `#{$name}` has already been imported.";
+  }
 }
