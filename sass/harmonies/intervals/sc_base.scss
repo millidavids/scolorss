@@ -26,8 +26,12 @@ $sc-primary: (
   'darken-90': darken($sc-seed, 90)
 );
 
+$sc-colors: (
+  'sc-primary': $sc-primary
+);
+
 @function color($color, $type) {
-  @if map-has-key($colors, $color) {
+  @if map-has-key($sc-colors, $color) {
     $curr_color: map-get($colors, $color);
     @if map-has-key($curr_color, $type) {
       @return map-get($curr_color, $type);
@@ -35,4 +39,9 @@ $sc-primary: (
   }
   @warn "Unknown `#{name}` in $colors.";
   @return null;
+}
+
+@function map-set($map, $key, $value) {
+  $new: ($key: $value);
+  @return map-merge($map, $new);
 }

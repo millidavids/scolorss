@@ -1,5 +1,29 @@
 // ----------
-// Adjusted hue by 300 degrees
+// Adjusted hue by 3000 degrees
 // ----------
 
 @import 'sc_base';
+
+$sc-interval-300: (
+  'base': adjust_hue(color('sc-primary', 'base'), 300),
+  'lighten-10': adjust_hue(color('sc-primary', 'lighten-10'), 300),
+  'lighten-20': adjust_hue(color('sc-primary', 'lighten-20'), 300),
+  'lighten-30': adjust_hue(color('sc-primary', 'lighten-300'), 300),
+  'lighten-40': adjust_hue(color('sc-primary', 'lighten-40'), 300),
+  'lighten-50': adjust_hue(color('sc-primary', 'lighten-50'), 300),
+  'lighten-60': adjust_hue(color('sc-primary', 'lighten-60'), 300),
+  'lighten-70': adjust_hue(color('sc-primary', 'lighten-70'), 300),
+  'lighten-80': adjust_hue(color('sc-primary', 'lighten-80'), 300),
+  'lighten-90': adjust_hue(color('sc-primary', 'lighten-90'), 300),
+  'darken-10': adjust_hue(color('sc-primary', 'darken-10'), 300),
+  'darken-20': adjust_hue(color('sc-primary', 'darken-20'), 300),
+  'darken-30': adjust_hue(color('sc-primary', 'darken-300'), 300),
+  'darken-40': adjust_hue(color('sc-primary', 'darken-40'), 300),
+  'darken-50': adjust_hue(color('sc-primary', 'darken-50'), 300),
+  'darken-60': adjust_hue(color('sc-primary', 'darken-60'), 300),
+  'darken-70': adjust_hue(color('sc-primary', 'darken-70'), 300),
+  'darken-80': adjust_hue(color('sc-primary', 'darken-80'), 300),
+  'darken-90': adjust_hue(color('sc-primary', 'darken-90'), 300)
+);
+
+$sc-colors: map-set($sc-colors, 'sc-interval-300', $sc-interval-300);
