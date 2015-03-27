@@ -1,0 +1,52 @@
+// ----------
+// Triadic
+// ----------
+@import 'intervals/interval_120';
+@import 'intervals/interval_240';
+
+$sc-triadic-1: (
+  'base': color('sc-interval-120', 'base'),
+  'lighten-10': color('sc-interval-120', 'lighten-10'),
+  'lighten-20': color('sc-interval-120', 'lighten-20'),
+  'lighten-30': color('sc-interval-120', 'lighten-30'),
+  'lighten-40': color('sc-interval-120', 'lighten-40'),
+  'lighten-50': color('sc-interval-120', 'lighten-50'),
+  'lighten-60': color('sc-interval-120', 'lighten-60'),
+  'lighten-70': color('sc-interval-120', 'lighten-70'),
+  'lighten-80': color('sc-interval-120', 'lighten-80'),
+  'lighten-90': color('sc-interval-120', 'lighten-90'),
+  'darken-10': color('sc-interval-120', 'darken-10'),
+  'darken-20': color('sc-interval-120', 'darken-20'),
+  'darken-30': color('sc-interval-120', 'darken-30'),
+  'darken-40': color('sc-interval-120', 'darken-40'),
+  'darken-50': color('sc-interval-120', 'darken-50'),
+  'darken-60': color('sc-interval-120', 'darken-60'),
+  'darken-70': color('sc-interval-120', 'darken-70'),
+  'darken-80': color('sc-interval-120', 'darken-80'),
+  'darken-90': color('sc-interval-120', 'darken-90')
+);
+
+$sc-triadic-2: (
+  'base': color('sc-interval-240', 'base'),
+  'lighten-10': color('sc-interval-240', 'lighten-10'),
+  'lighten-20': color('sc-interval-240', 'lighten-20'),
+  'lighten-30': color('sc-interval-240', 'lighten-30'),
+  'lighten-40': color('sc-interval-240', 'lighten-40'),
+  'lighten-50': color('sc-interval-240', 'lighten-50'),
+  'lighten-60': color('sc-interval-240', 'lighten-60'),
+  'lighten-70': color('sc-interval-240', 'lighten-70'),
+  'lighten-80': color('sc-interval-240', 'lighten-80'),
+  'lighten-90': color('sc-interval-240', 'lighten-90'),
+  'darken-10': color('sc-interval-240', 'darken-10'),
+  'darken-20': color('sc-interval-240', 'darken-20'),
+  'darken-30': color('sc-interval-240', 'darken-30'),
+  'darken-40': color('sc-interval-240', 'darken-40'),
+  'darken-50': color('sc-interval-240', 'darken-50'),
+  'darken-60': color('sc-interval-240', 'darken-60'),
+  'darken-70': color('sc-interval-240', 'darken-70'),
+  'darken-80': color('sc-interval-240', 'darken-80'),
+  'darken-90': color('sc-interval-240', 'darken-90')
+);
+
+$sc-colors: map-set($sc-colors, 'sc-triadic-1', $sc-triadic-1);
+$sc-colors: map-set($sc-colors, 'sc-triadic-2', $sc-triadic-2);

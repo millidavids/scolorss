@@ -1,0 +1,52 @@
+// ----------
+// Split Complement
+// ----------
+@import 'intervals/interval_150';
+@import 'intervals/interval_210';
+
+$sc-s-complement-1: (
+  'base': color('sc-interval-150', 'base'),
+  'lighten-10': color('sc-interval-150', 'lighten-10'),
+  'lighten-20': color('sc-interval-150', 'lighten-20'),
+  'lighten-30': color('sc-interval-150', 'lighten-30'),
+  'lighten-40': color('sc-interval-150', 'lighten-40'),
+  'lighten-50': color('sc-interval-150', 'lighten-50'),
+  'lighten-60': color('sc-interval-150', 'lighten-60'),
+  'lighten-70': color('sc-interval-150', 'lighten-70'),
+  'lighten-80': color('sc-interval-150', 'lighten-80'),
+  'lighten-90': color('sc-interval-150', 'lighten-90'),
+  'darken-10': color('sc-interval-150', 'darken-10'),
+  'darken-20': color('sc-interval-150', 'darken-20'),
+  'darken-30': color('sc-interval-150', 'darken-30'),
+  'darken-40': color('sc-interval-150', 'darken-40'),
+  'darken-50': color('sc-interval-150', 'darken-50'),
+  'darken-60': color('sc-interval-150', 'darken-60'),
+  'darken-70': color('sc-interval-150', 'darken-70'),
+  'darken-80': color('sc-interval-150', 'darken-80'),
+  'darken-90': color('sc-interval-150', 'darken-90')
+);
+
+$sc-s-complement-2: (
+  'base': color('sc-interval-210', 'base'),
+  'lighten-10': color('sc-interval-210', 'lighten-10'),
+  'lighten-20': color('sc-interval-210', 'lighten-20'),
+  'lighten-30': color('sc-interval-210', 'lighten-30'),
+  'lighten-40': color('sc-interval-210', 'lighten-40'),
+  'lighten-50': color('sc-interval-210', 'lighten-50'),
+  'lighten-60': color('sc-interval-210', 'lighten-60'),
+  'lighten-70': color('sc-interval-210', 'lighten-70'),
+  'lighten-80': color('sc-interval-210', 'lighten-80'),
+  'lighten-90': color('sc-interval-210', 'lighten-90'),
+  'darken-10': color('sc-interval-210', 'darken-10'),
+  'darken-20': color('sc-interval-210', 'darken-20'),
+  'darken-30': color('sc-interval-210', 'darken-30'),
+  'darken-40': color('sc-interval-210', 'darken-40'),
+  'darken-50': color('sc-interval-210', 'darken-50'),
+  'darken-60': color('sc-interval-210', 'darken-60'),
+  'darken-70': color('sc-interval-210', 'darken-70'),
+  'darken-80': color('sc-interval-210', 'darken-80'),
+  'darken-90': color('sc-interval-210', 'darken-90')
+);
+
+$sc-colors: map-set($sc-colors, 'sc-s-complement-1', $sc-s-complement-1);
+$sc-colors: map-set($sc-colors, 'sc-s-complement-2', $sc-s-complement-2);

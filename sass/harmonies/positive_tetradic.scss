@@ -1,0 +1,76 @@
+// ----------
+// Positive Tetradic
+// ----------
+@import 'intervals/interval_060';
+@import 'intervals/interval_180';
+@import 'intervals/interval_240';
+
+$sc-p-tetradic-1: (
+  'base': color('sc-interval-60', 'base'),
+  'lighten-10': color('sc-interval-60', 'lighten-10'),
+  'lighten-20': color('sc-interval-60', 'lighten-20'),
+  'lighten-30': color('sc-interval-60', 'lighten-30'),
+  'lighten-40': color('sc-interval-60', 'lighten-40'),
+  'lighten-50': color('sc-interval-60', 'lighten-50'),
+  'lighten-60': color('sc-interval-60', 'lighten-60'),
+  'lighten-70': color('sc-interval-60', 'lighten-70'),
+  'lighten-80': color('sc-interval-60', 'lighten-80'),
+  'lighten-90': color('sc-interval-60', 'lighten-90'),
+  'darken-10': color('sc-interval-60', 'darken-10'),
+  'darken-20': color('sc-interval-60', 'darken-20'),
+  'darken-30': color('sc-interval-60', 'darken-30'),
+  'darken-40': color('sc-interval-60', 'darken-40'),
+  'darken-50': color('sc-interval-60', 'darken-50'),
+  'darken-60': color('sc-interval-60', 'darken-60'),
+  'darken-70': color('sc-interval-60', 'darken-70'),
+  'darken-80': color('sc-interval-60', 'darken-80'),
+  'darken-90': color('sc-interval-60', 'darken-90')
+);
+
+$sc-p-tetradic-2: (
+  'base': color('sc-interval-180', 'base'),
+  'lighten-10': color('sc-interval-180', 'lighten-10'),
+  'lighten-20': color('sc-interval-180', 'lighten-20'),
+  'lighten-30': color('sc-interval-180', 'lighten-30'),
+  'lighten-40': color('sc-interval-180', 'lighten-40'),
+  'lighten-50': color('sc-interval-180', 'lighten-50'),
+  'lighten-60': color('sc-interval-180', 'lighten-60'),
+  'lighten-70': color('sc-interval-180', 'lighten-70'),
+  'lighten-80': color('sc-interval-180', 'lighten-80'),
+  'lighten-90': color('sc-interval-180', 'lighten-90'),
+  'darken-10': color('sc-interval-180', 'darken-10'),
+  'darken-20': color('sc-interval-180', 'darken-20'),
+  'darken-30': color('sc-interval-180', 'darken-30'),
+  'darken-40': color('sc-interval-180', 'darken-40'),
+  'darken-50': color('sc-interval-180', 'darken-50'),
+  'darken-60': color('sc-interval-180', 'darken-60'),
+  'darken-70': color('sc-interval-180', 'darken-70'),
+  'darken-80': color('sc-interval-180', 'darken-80'),
+  'darken-90': color('sc-interval-180', 'darken-90')
+);
+
+$sc-p-tetradic-3: (
+  'base': color('sc-interval-240', 'base'),
+  'lighten-10': color('sc-interval-240', 'lighten-10'),
+  'lighten-20': color('sc-interval-240', 'lighten-20'),
+  'lighten-30': color('sc-interval-240', 'lighten-30'),
+  'lighten-40': color('sc-interval-240', 'lighten-40'),
+  'lighten-50': color('sc-interval-240', 'lighten-50'),
+  'lighten-60': color('sc-interval-240', 'lighten-60'),
+  'lighten-70': color('sc-interval-240', 'lighten-70'),
+  'lighten-80': color('sc-interval-240', 'lighten-80'),
+  'lighten-90': color('sc-interval-240', 'lighten-90'),
+  'darken-10': color('sc-interval-240', 'darken-10'),
+  'darken-20': color('sc-interval-240', 'darken-20'),
+  'darken-30': color('sc-interval-240', 'darken-30'),
+  'darken-40': color('sc-interval-240', 'darken-40'),
+  'darken-50': color('sc-interval-240', 'darken-50'),
+  'darken-60': color('sc-interval-240', 'darken-60'),
+  'darken-70': color('sc-interval-240', 'darken-70'),
+  'darken-80': color('sc-interval-240', 'darken-80'),
+  'darken-90': color('sc-interval-240', 'darken-90')
+);
+
+$sc-colors: map-set($sc-colors, 'sc-p-tetradic-1', $sc-p-tetradic-1);
+$sc-colors: map-set($sc-colors, 'sc-p-tetradic-2', $sc-p-tetradic-2);
+$sc-colors: map-set($sc-colors, 'sc-p-tetradic-3', $sc-p-tetradic-3);

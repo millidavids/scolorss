@@ -1,0 +1,52 @@
+// ----------
+// Analogous
+// ----------
+@import 'intervals/interval_030';
+@import 'intervals/interval_330';
+
+$sc-analogous-1: (
+  'base': color('sc-interval-30', 'base'),
+  'lighten-10': color('sc-interval-30', 'lighten-10'),
+  'lighten-20': color('sc-interval-30', 'lighten-20'),
+  'lighten-30': color('sc-interval-30', 'lighten-30'),
+  'lighten-40': color('sc-interval-30', 'lighten-40'),
+  'lighten-50': color('sc-interval-30', 'lighten-50'),
+  'lighten-60': color('sc-interval-30', 'lighten-60'),
+  'lighten-70': color('sc-interval-30', 'lighten-70'),
+  'lighten-80': color('sc-interval-30', 'lighten-80'),
+  'lighten-90': color('sc-interval-30', 'lighten-90'),
+  'darken-10': color('sc-interval-30', 'darken-10'),
+  'darken-20': color('sc-interval-30', 'darken-20'),
+  'darken-30': color('sc-interval-30', 'darken-30'),
+  'darken-40': color('sc-interval-30', 'darken-40'),
+  'darken-50': color('sc-interval-30', 'darken-50'),
+  'darken-60': color('sc-interval-30', 'darken-60'),
+  'darken-70': color('sc-interval-30', 'darken-70'),
+  'darken-80': color('sc-interval-30', 'darken-80'),
+  'darken-90': color('sc-interval-30', 'darken-90')
+);
+
+$sc-analogous-2: (
+  'base': color('sc-interval-330', 'base'),
+  'lighten-10': color('sc-interval-330', 'lighten-10'),
+  'lighten-20': color('sc-interval-330', 'lighten-20'),
+  'lighten-30': color('sc-interval-330', 'lighten-30'),
+  'lighten-40': color('sc-interval-330', 'lighten-40'),
+  'lighten-50': color('sc-interval-330', 'lighten-50'),
+  'lighten-60': color('sc-interval-330', 'lighten-60'),
+  'lighten-70': color('sc-interval-330', 'lighten-70'),
+  'lighten-80': color('sc-interval-330', 'lighten-80'),
+  'lighten-90': color('sc-interval-330', 'lighten-90'),
+  'darken-10': color('sc-interval-330', 'darken-10'),
+  'darken-20': color('sc-interval-330', 'darken-20'),
+  'darken-30': color('sc-interval-330', 'darken-30'),
+  'darken-40': color('sc-interval-330', 'darken-40'),
+  'darken-50': color('sc-interval-330', 'darken-50'),
+  'darken-60': color('sc-interval-330', 'darken-60'),
+  'darken-70': color('sc-interval-330', 'darken-70'),
+  'darken-80': color('sc-interval-330', 'darken-80'),
+  'darken-90': color('sc-interval-330', 'darken-90')
+);
+
+$sc-colors: map-set($sc-colors, 'sc-analogous-1', $sc-analogous-1);
+$sc-colors: map-set($sc-colors, 'sc-analogous-2', $sc-analogous-2);

@@ -1,0 +1,76 @@
+// ----------
+// Square
+// ----------
+@import 'intervals/interval_090';
+@import 'intervals/interval_180';
+@import 'intervals/interval_270';
+
+$sc-square-1: (
+  'base': color('sc-interval-90', 'base'),
+  'lighten-10': color('sc-interval-90', 'lighten-10'),
+  'lighten-20': color('sc-interval-90', 'lighten-20'),
+  'lighten-30': color('sc-interval-90', 'lighten-30'),
+  'lighten-40': color('sc-interval-90', 'lighten-40'),
+  'lighten-50': color('sc-interval-90', 'lighten-50'),
+  'lighten-60': color('sc-interval-90', 'lighten-60'),
+  'lighten-70': color('sc-interval-90', 'lighten-70'),
+  'lighten-80': color('sc-interval-90', 'lighten-80'),
+  'lighten-90': color('sc-interval-90', 'lighten-90'),
+  'darken-10': color('sc-interval-90', 'darken-10'),
+  'darken-20': color('sc-interval-90', 'darken-20'),
+  'darken-30': color('sc-interval-90', 'darken-30'),
+  'darken-40': color('sc-interval-90', 'darken-40'),
+  'darken-50': color('sc-interval-90', 'darken-50'),
+  'darken-60': color('sc-interval-90', 'darken-60'),
+  'darken-70': color('sc-interval-90', 'darken-70'),
+  'darken-80': color('sc-interval-90', 'darken-80'),
+  'darken-90': color('sc-interval-90', 'darken-90')
+);
+
+$sc-square-2: (
+  'base': color('sc-interval-180', 'base'),
+  'lighten-10': color('sc-interval-180', 'lighten-10'),
+  'lighten-20': color('sc-interval-180', 'lighten-20'),
+  'lighten-30': color('sc-interval-180', 'lighten-30'),
+  'lighten-40': color('sc-interval-180', 'lighten-40'),
+  'lighten-50': color('sc-interval-180', 'lighten-50'),
+  'lighten-60': color('sc-interval-180', 'lighten-60'),
+  'lighten-70': color('sc-interval-180', 'lighten-70'),
+  'lighten-80': color('sc-interval-180', 'lighten-80'),
+  'lighten-90': color('sc-interval-180', 'lighten-90'),
+  'darken-10': color('sc-interval-180', 'darken-10'),
+  'darken-20': color('sc-interval-180', 'darken-20'),
+  'darken-30': color('sc-interval-180', 'darken-30'),
+  'darken-40': color('sc-interval-180', 'darken-40'),
+  'darken-50': color('sc-interval-180', 'darken-50'),
+  'darken-60': color('sc-interval-180', 'darken-60'),
+  'darken-70': color('sc-interval-180', 'darken-70'),
+  'darken-80': color('sc-interval-180', 'darken-80'),
+  'darken-90': color('sc-interval-180', 'darken-90')
+);
+
+$sc-square-3: (
+  'base': color('sc-interval-270', 'base'),
+  'lighten-10': color('sc-interval-270', 'lighten-10'),
+  'lighten-20': color('sc-interval-270', 'lighten-20'),
+  'lighten-30': color('sc-interval-270', 'lighten-30'),
+  'lighten-40': color('sc-interval-270', 'lighten-40'),
+  'lighten-50': color('sc-interval-270', 'lighten-50'),
+  'lighten-60': color('sc-interval-270', 'lighten-60'),
+  'lighten-70': color('sc-interval-270', 'lighten-70'),
+  'lighten-80': color('sc-interval-270', 'lighten-80'),
+  'lighten-90': color('sc-interval-270', 'lighten-90'),
+  'darken-10': color('sc-interval-270', 'darken-10'),
+  'darken-20': color('sc-interval-270', 'darken-20'),
+  'darken-30': color('sc-interval-270', 'darken-30'),
+  'darken-40': color('sc-interval-270', 'darken-40'),
+  'darken-50': color('sc-interval-270', 'darken-50'),
+  'darken-60': color('sc-interval-270', 'darken-60'),
+  'darken-70': color('sc-interval-270', 'darken-70'),
+  'darken-80': color('sc-interval-270', 'darken-80'),
+  'darken-90': color('sc-interval-270', 'darken-90')
+);
+
+$sc-colors: map-set($sc-colors, 'sc-square-1', $sc-square-1);
+$sc-colors: map-set($sc-colors, 'sc-square-2', $sc-square-2);
+$sc-colors: map-set($sc-colors, 'sc-square-3', $sc-square-3);
