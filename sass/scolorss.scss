@@ -1,34 +1,34 @@
 // Define a primary color with variable name:
 // -----------
-$sc-primary: red !default;
+$sc-seed: red !default;
 // -----------
 
-// $sc-primary lightened 10 degree increments.
-$sc-primary-lighten-10: lighten($sc-primary, 10);
-$sc-primary-lighten-20: lighten($sc-primary, 20);
-$sc-primary-lighten-30: lighten($sc-primary, 30);
-$sc-primary-lighten-40: lighten($sc-primary, 40);
-$sc-primary-lighten-50: lighten($sc-primary, 50);
-$sc-primary-lighten-60: lighten($sc-primary, 60);
-$sc-primary-lighten-70: lighten($sc-primary, 70);
-$sc-primary-lighten-80: lighten($sc-primary, 80);
-$sc-primary-lighten-90: lighten($sc-primary, 90);
+// $sc-seed lightened 10 degree increments.
+$sc-seed-lighten-10: lighten($sc-seed, 10);
+$sc-seed-lighten-20: lighten($sc-seed, 20);
+$sc-seed-lighten-30: lighten($sc-seed, 30);
+$sc-seed-lighten-40: lighten($sc-seed, 40);
+$sc-seed-lighten-50: lighten($sc-seed, 50);
+$sc-seed-lighten-60: lighten($sc-seed, 60);
+$sc-seed-lighten-70: lighten($sc-seed, 70);
+$sc-seed-lighten-80: lighten($sc-seed, 80);
+$sc-seed-lighten-90: lighten($sc-seed, 90);
 
-// $sc-primary darkened 10 degree increments.
-$sc-primary-darken-10: darken($sc-primary, 10);
-$sc-primary-darken-20: darken($sc-primary, 20);
-$sc-primary-darken-30: darken($sc-primary, 30);
-$sc-primary-darken-40: darken($sc-primary, 40);
-$sc-primary-darken-50: darken($sc-primary, 50);
-$sc-primary-darken-60: darken($sc-primary, 60);
-$sc-primary-darken-70: darken($sc-primary, 70);
-$sc-primary-darken-80: darken($sc-primary, 80);
-$sc-primary-darken-90: darken($sc-primary, 90);
+// $sc-seed darkened 10 degree increments.
+$sc-seed-darken-10: darken($sc-seed, 10);
+$sc-seed-darken-20: darken($sc-seed, 20);
+$sc-seed-darken-30: darken($sc-seed, 30);
+$sc-seed-darken-40: darken($sc-seed, 40);
+$sc-seed-darken-50: darken($sc-seed, 50);
+$sc-seed-darken-60: darken($sc-seed, 60);
+$sc-seed-darken-70: darken($sc-seed, 70);
+$sc-seed-darken-80: darken($sc-seed, 80);
+$sc-seed-darken-90: darken($sc-seed, 90);
 
 // ----------
 // Complement
 // ----------
-$sc-complement: adjust_hue($sc-primary, 180);
+$sc-complement: adjust_hue($sc-seed, 180);
 
 // $sc-complement lightened in 10 degree increments
 $sc-complement-lighten-10: lighten($sc-complement, 10);
@@ -55,8 +55,8 @@ $sc-complement-darken-90: darken($sc-complement, 90);
 // ----------
 // Split Complement
 // ----------
-$sc-split-complement-pos150: adjust_hue($sc-primary, 150);
-$sc-split-complement-neg150: adjust_hue($sc-primary, -150);
+$sc-split-complement-pos150: adjust_hue($sc-seed, 150);
+$sc-split-complement-neg150: adjust_hue($sc-seed, -150);
 
 // $sc-split-complement-pos150 lighten in 10 degree increments
 $sc-split-complement-pos150-lighten-10: lighten($sc-split-complement-pos150, 10);
@@ -105,8 +105,8 @@ $sc-split-complement-neg150-darken-90: darken($sc-split-complement-neg150, 90);
 // ----------
 // Analogous
 // ----------
-$sc-analogous-pos30: adjust_hue($sc-primary, 30);
-$sc-analogous-neg30: adjust_hue($sc-primary, -30);
+$sc-analogous-pos30: adjust_hue($sc-seed, 30);
+$sc-analogous-neg30: adjust_hue($sc-seed, -30);
 
 // $sc-analogous-pos30 lighten in 10 degree increments
 $sc-analogous-pos30-lighten-10: lighten($sc-analogous-pos30, 10);
@@ -155,8 +155,8 @@ $sc-analogous-neg30-darken-90: darken($sc-analogous-neg30, 90);
 // ----------
 // Triadic
 // ----------
-$sc-triadic-pos120: adjust_hue($sc-primary, 120);
-$sc-triadic-neg120: adjust_hue($sc-primary, -120);
+$sc-triadic-pos120: adjust_hue($sc-seed, 120);
+$sc-triadic-neg120: adjust_hue($sc-seed, -120);
 
 // $sc-triadic-pos120 lighten in 10 degree increments
 $sc-triadic-pos120-lighten-10: lighten($sc-triadic-pos120, 10);
@@ -205,9 +205,9 @@ $sc-triadic-neg120-darken-90: darken($sc-triadic-neg120, 90);
 // ----------
 // Tetradic Positive
 // ----------
-$sc-tetradic-pos60: adjust_hue($sc-primary, 60);
+$sc-tetradic-pos60: adjust_hue($sc-seed, 60);
 // $sc-complement is included in this scheme
-$sc-tetradic-pos240: adjust_hue($sc-primary, 240);
+$sc-tetradic-pos240: adjust_hue($sc-seed, 240);
 
 // $sc-tetradic-pos60 lighten in 10 degree increments
 $sc-tetradic-pos60-lighten-10: lighten($sc-tetradic-pos60, 10);
@@ -256,9 +256,9 @@ $sc-tetradic-pos240-darken-90: darken($sc-tetradic-pos240, 90);
 // ----------
 // Tetradic Negative
 // ----------
-$sc-tetradic-neg60: adjust_hue($sc-primary, -60);
+$sc-tetradic-neg60: adjust_hue($sc-seed, -60);
 // $sc-complement is included in this scheme
-$sc-tetradic-neg240: adjust_hue($sc-primary, -240);
+$sc-tetradic-neg240: adjust_hue($sc-seed, -240);
 
 // $sc-tetradic-neg60 lighten in 10 degree increments
 $sc-tetradic-neg60-lighten-10: lighten($sc-tetradic-neg60, 10);
@@ -307,8 +307,8 @@ $sc-tetradic-neg240-darken-90: darken($sc-tetradic-neg240, 90);
 // ----------
 // Square
 // ----------
-$sc-square-pos90: adjust_hue($sc-primary, 90);
-$sc-square-neg90: adjust_hue($sc-primary, -90);
+$sc-square-pos90: adjust_hue($sc-seed, 90);
+$sc-square-neg90: adjust_hue($sc-seed, -90);
 
 // $sc-square-pos90 lighten in 10 degree increments
 $sc-square-pos90-lighten-10: lighten($sc-square-pos90, 10);

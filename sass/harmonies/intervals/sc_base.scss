@@ -1,0 +1,38 @@
+// ----------
+// Base Color
+// ----------
+
+$sc-seed: #d35400 !default;
+
+$sc-primary: (
+  'base': $sc-seed,
+  'lighten-10': lighten($sc-seed, 10),
+  'lighten-20': lighten($sc-seed, 20),
+  'lighten-30': lighten($sc-seed, 30),
+  'lighten-40': lighten($sc-seed, 40),
+  'lighten-50': lighten($sc-seed, 50),
+  'lighten-60': lighten($sc-seed, 60),
+  'lighten-70': lighten($sc-seed, 70),
+  'lighten-80': lighten($sc-seed, 80),
+  'lighten-90': lighten($sc-seed, 90),
+  'darken-10': darken($sc-seed, 10),
+  'darken-20': darken($sc-seed, 20),
+  'darken-30': darken($sc-seed, 30),
+  'darken-40': darken($sc-seed, 40),
+  'darken-50': darken($sc-seed, 50),
+  'darken-60': darken($sc-seed, 60),
+  'darken-70': darken($sc-seed, 70),
+  'darken-80': darken($sc-seed, 80),
+  'darken-90': darken($sc-seed, 90)
+);
+
+@function color($color, $type) {
+  @if map-has-key($colors, $color) {
+    $curr_color: map-get($colors, $color);
+    @if map-has-key($curr_color, $type) {
+      @return map-get($curr_color, $type);
+    }
+  }
+  @warn "Unknown `#{name}` in $colors.";
+  @return null;
+}
