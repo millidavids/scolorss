@@ -32,7 +32,7 @@ $sc-colors: (
 
 @function color($color, $type) {
   @if map-has-key($sc-colors, $color) {
-    $curr_color: map-get($colors, $color);
+    $curr_color: map-get($sc-colors, $color);
     @if map-has-key($curr_color, $type) {
       @return map-get($curr_color, $type);
     }
